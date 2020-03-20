@@ -7,7 +7,9 @@
 #define TAM_VETOR 10
  
 int insertionSort(int * vetor) {
-	int temp, count, count1;
+	int temp = 0;
+	int	count; 
+	int	count1;
 
 	for(count = 1; count < TAM_VETOR; count++) {
 
