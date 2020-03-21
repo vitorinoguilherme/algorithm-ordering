@@ -37,17 +37,3 @@ void quickSort(int * vetor, int esquerda, int direita) {
 		
 }
 
-int main(void) {
-	int * vetor;
-    int vet[TAM_VETOR] = {10, 9, 8, 7, 2, 5, 4, 3, 2, 1};
-   
-    vetor = &vet;
-
-    quickSort(vetor, 0, 9);
-    
-    int i;
-    for(i = 0; i < TAM_VETOR; i++)
-    	printf("%d ", vet[i]);
-
-
-}
